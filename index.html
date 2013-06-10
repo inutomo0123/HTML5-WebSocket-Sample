@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>HTML5 WebSocket Sample</title>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script src="js/web-socket.js"></script>
+<link rel="stylesheet" href="css/html5-doctor-reset-stylesheet.min.css">
+<link rel="stylesheet" href="css/common.css">
+
+</head>
+<body>
+
+<article class="widget" style="width: 300px; float: left;">
+<h1>WebSocket</h1>
+<div class="content">
+<dl>
+<dt>instantiation</dt>
+<dd><button id="instantiation" name="instantiation">instantiation</button></dd>
+<dt>send(data)</dt>
+<dd>
+	<input id="message" name="message" type="text">
+	&nbsp;<button id="send">send</button>
+</dd>
+<dt>close()</dt>
+<dd><button id="close" name="close">close</button></dd>
+</dl>
+</div>
+</article>
+
+
+<article class="widget" style="width: 500px; float: left;">
+<h1>messages</h1>
+<div class="content">
+<ol id="messages">
+</ol>
+</div>
+</article>
+
+</body>
+</html>
